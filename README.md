@@ -1,2 +1,2 @@
 # MineSweeper-JavaScript
-![Screenshot1](https://user-images.githubusercontent.com/32854050/110766976-09e91280-8256-11eb-9a1f-2f38bff7a3f3.jpg)
+![1](https://user-images.githubusercontent.com/32854050/110767200-47e63680-8256-11eb-9960-e8aa7c231419.jpg)
