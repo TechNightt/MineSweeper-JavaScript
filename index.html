@@ -9,14 +9,38 @@
   <link rel="stylesheet" href="./css/style.css" />
 
   <link href="http://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/>
+  
   </head>
-
-
   <body>
-  <main class="game">
-  <header class="header">
-  <article class="header_counter">0</article>
-  <button class="header_reset"></button>
+   <main class="game">
+   <header class="header">
+   <article class="header_counter" data-counter>0</article>
+   <button class="header_reset" data-button-reset>Reset</button>
+   <svg class="header_button">
+   <use href="./assets/sprote.svg#neutral"></use>
+   </svg>
+  </button>
+
+  <article class="header_counter" data-timer>0</article>
+  </header>
+  <article class="game__board border border--convex" data-board></article>
+  <article class="game__panel border border--convex">
+  <header class="panel_header">
+  <h1 class="panel_header">Select Difficulty</h1>
+  </header>
+  <section class="game__buttons">
+    <button class="button" data-button-easy>Easy</button>
+    <button class="button" data-button-normal>Normal</button>
+    <button class="button" data-button-expert>Expert</button>
+ 
+  <svg class="header_button">
+
+  <button class="header_reset">
+  
+  </svg>
+  <use href="./assets/sprite.svg#neutral"></use>
+  </button>
+
   <script type="model" src="./js/Game.js"></script> 
 
 
@@ -32,14 +56,15 @@
 <button class="button">Normal</button>
 <button class="button">Expert</button>
 </section>
+
 </article>
 <article class="modal hide"1>
 <section class="modal_content">Play again</button>
-
 <h2 class="modal_text">You won!</h2>
 <button class="modal_button">Play again</button>
 </section>
 </article>
+
 </main>
 <script type="model" scr="./js/Game.js"></script>
 
