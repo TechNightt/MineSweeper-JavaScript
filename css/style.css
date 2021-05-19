@@ -22,3 +22,17 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+
+.header_counter {
+    background-color: var(--primary-color);
+    color: var(--alarm-color);
+    padding: 0.5rem;
+    font-family: 'DIGITALDREAM', sans-serif;
+    font-size: 3.2rem;
+}
