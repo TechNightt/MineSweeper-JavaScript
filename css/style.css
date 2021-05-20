@@ -115,6 +115,18 @@ html {
     color: #fff;
 }
 
+.border {
+    border: 0.3rem solid;
+}
+
+.border--convex {
+    border-color: var(--primary-color--dark) #fff #fff var(--primary-color--dark);
+}
+
+.border--concave {
+    border-color: #fff var(--primary-color--dark) var(--primary-color--dark) #fff;
+}
+
 .hide {
     visibility: hidden;
 }
